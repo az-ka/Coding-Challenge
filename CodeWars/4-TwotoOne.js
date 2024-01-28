@@ -7,7 +7,7 @@
  * Submitted: 29/01/2024
  * Challenge Day: 4
  * Author: Azka
- * Message for the Day: message for the day
+ * Message for the Day: "Quality is not an act, it is a habit."
  */
 
 function longest(s1, s2) {
