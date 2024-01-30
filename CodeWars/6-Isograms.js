@@ -7,7 +7,7 @@
  * Submitted: 31/01/2024
  * Challenge Day: 6
  * Author: Azka
- * Message for the Day: message for the day
+ * Message for the Day: "When you feel like quitting, think about why you started."
  */
 
 function isIsogram(str) {
