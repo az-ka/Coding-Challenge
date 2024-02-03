@@ -7,7 +7,7 @@
  * Submitted: 03/02/2024
  * Challenge Day: 9
  * Author: Azka
- * Message for the Day: message for the day
+ * Message for the Day: "Zero in on your target and go for it."
  */
 
 function inArray(array1, array2) {
