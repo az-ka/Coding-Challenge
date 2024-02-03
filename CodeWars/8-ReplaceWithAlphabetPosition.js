@@ -4,7 +4,7 @@
  * Link: https://www.codewars.com/kata/546f922b54af40e1e90001da/train/javascript
  * Title: Replace With Alphabet Position
  * Language: JavaScript
- * Submitted: 22/01/2024
+ * Submitted: 02/02/2024
  * Challenge Day: 8
  * Author: Azka
  * Message for the Day: "Just keep going. Everybody gets better if they keep at it."
