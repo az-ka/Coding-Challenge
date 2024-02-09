@@ -11,18 +11,10 @@
  */
 
 function firstNonRepeatingLetter(s) {
-    // Membuat variabel result
-    let result = s
-        // Memecah string menjadi array
-        .split("")
-        // Mengembalikan huruf yang hanya muncul sekali
-        .filter(function (a, i, w) {
-            return w.indexOf(a) == w.lastIndexOf(a);
-        })
-        // Menggabungkan array menjadi string
-        .join("");
-    // Mengembalikan huruf pertama yang hanya muncul sekali
-    return result.length > 0 ? result[0] : "";
+    // Mengembalikan huruf pertama yang tidak berulang dalam sebuah string
+    return (
+        s.split("").find((a) => s.match(new RegExp(a, "gi")).length === 1) || ""
+    );
 }
 
 console.log(firstNonRepeatingLetter("stress"));
